@@ -14,7 +14,7 @@
   var BOT_NAME  = script.getAttribute('data-bot-name') || 'DragonChat AI';
   var COLOR     = script.getAttribute('data-color')    || '#9B7B3F';
   var GREETING  = script.getAttribute('data-greeting') || 'Hi there! How can I help you today?';
-  var API_URL   = 'https://app.drekisolutions.com/api/chat';
+  var API_URL   = 'https://app.dreki-solutions.com/api/chat';
 
   /* ── Styles ──────────────────────────────────────────────────────────── */
   var css = [

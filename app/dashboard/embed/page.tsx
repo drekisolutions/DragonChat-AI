@@ -28,7 +28,7 @@ export default function EmbedPage() {
   useEffect(() => { setConfig(storage.getConfig()); }, []);
 
   const embedCode = config
-    ? `<!-- DragonChat AI by Dreki Solutions -->\n<script\n  src="https://app.drekisolutions.com/dragonchat.js"\n  data-key="YOUR_API_KEY"\n  data-color="${config.bubbleColor || '#A07840'}"\n  data-bot-name="${config.botName || 'AI Assistant'}"\n  data-greeting="${config.greeting || 'Hi there! How can I help you today?'}"\n></script>`
+    ? `<!-- DragonChat AI by Dreki Solutions -->\n<script\n  src="https://app.dreki-solutions.com/dragonchat.js"\n  data-key="YOUR_API_KEY"\n  data-color="${config.bubbleColor || '#A07840'}"\n  data-bot-name="${config.botName || 'AI Assistant'}"\n  data-greeting="${config.greeting || 'Hi there! How can I help you today?'}"\n></script>`
     : '';
 
   const handleCopy = async () => {
